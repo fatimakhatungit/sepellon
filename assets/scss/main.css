@@ -512,41 +512,42 @@ label {
   height: 340px;
   right: 1px;
   position: absolute;
-  top: 19%;
+  top: 22%;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   z-index: 0;
   -webkit-transform: rotate(-0.25deg);
-          transform: rotate(-0.25deg);
+  transform: rotate(-0.25deg);
 }
 
 .icons-parallax {
   display: inline-block;
-  width: 280px;
-  height: 270px;
+  width: 270px;
+  height: 246px;
   background: rgba(255, 255, 255, 0.01);
   border: 1px solid #000000;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   -webkit-box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.8), inset 0px 40px 40px rgba(255, 255, 255, 0.24), inset 0px -3px 6px rgba(255, 255, 255, 0.24), inset 0px -6px 18px rgba(255, 255, 255, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 255, 255, 0.4);
-          box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.8), inset 0px 40px 40px rgba(255, 255, 255, 0.24), inset 0px -3px 6px rgba(255, 255, 255, 0.24), inset 0px -6px 18px rgba(255, 255, 255, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 255, 255, 0.4);
+  box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.8), inset 0px 40px 40px rgba(255, 255, 255, 0.24), inset 0px -3px 6px rgba(255, 255, 255, 0.24), inset 0px -6px 18px rgba(255, 255, 255, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 255, 255, 0.4);
   -webkit-backdrop-filter: blur(40px);
-          backdrop-filter: blur(40px);
-  border-radius: 26px;
-  margin: 50px 10px;
-  padding: 30px 20px;
+  backdrop-filter: blur(40px);
+  border-radius: 20px;
+  margin: 50px 25px 30px;
+  padding: 37px 20px;
+  text-align: center;
 }
 
 .icons-wrapper .icon-One {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   z-index: 0;
-  margin: 30px;
+  margin: 25px 50px 20px 50px;
 }
 
 .icons-parallax h3 {
@@ -562,10 +563,10 @@ label {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 80px;
+  height: 80px;
   -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
   z-index: 0;
   margin: 30px;
 }
