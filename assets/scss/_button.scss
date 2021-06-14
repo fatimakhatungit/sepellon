@@ -1,0 +1,107 @@
+
+/* btn-style-one */
+
+.btn-style-one {
+	font-family: 'Work Sans', sans-serif;
+	background-color: transparent;
+	color: #fff;
+	position: relative;
+	padding: 13px 15px;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: capitalize;
+	z-index: 1;
+	letter-spacing: 1px;
+	border-radius: 15px;
+	overflow: hidden;
+}   
+.btn-style-one:hover {
+	background: #fff;
+	color: #FB65A3;
+}
+.btn-style-one::before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	content: '';
+	background: linear-gradient(180deg, #FB65A3 0%, #FF257F 100%);
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+	border-radius: 15px;
+}
+.btn-style-one::after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	right: 50%;
+	top: 50%;
+	width: 100%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+.btn-style-one:hover::before {
+	right: 0%;
+	left: auto;
+	width: 0;
+}
+
+/*btn-style-there */
+
+.btn-style-there {
+	font-family: 'Work Sans', sans-serif;
+	background-color: transparent;
+	color: #fff;
+	position: relative;
+	padding: 13px 35px;
+	font-size: 12px;
+	font-weight: 600;
+	text-transform: capitalize;
+	z-index: 1;
+	letter-spacing: 1px;
+	border-radius: 10px;
+	overflow: hidden;
+	border: none;
+	cursor: pointer;
+}     
+.btn-style-there:hover {
+	background: #fff;
+	color: #FB65A3;
+}
+.btn-style-there::before {
+	display: block;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	content: '';
+	background: linear-gradient(180deg, #FB65A3 0%, #FF257F 100%);
+	transition: all 0.4s cubic-bezier(0.42, 0, 0.58, 1);
+	border-radius: 10px;
+}
+.btn-style-there::after {
+	content: "";
+	position: absolute;
+	height: 0%;
+	right: 50%;
+	top: 50%;
+	width: 100%;
+	z-index: -1;
+	-webkit-transition: all 0.75s ease 0s;
+	-moz-transition: all 0.75s ease 0s;
+	-o-transition: all 0.75s ease 0s;
+	transition: all 0.75s ease 0s;
+}
+
+.btn-style-there:hover::before{
+	right: 0%;
+	left: auto;
+	width: 0;
+}

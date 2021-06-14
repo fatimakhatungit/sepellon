@@ -1,0 +1,126 @@
+/*banner-section*/
+.banner-section {
+	width: 100%;
+	height: 950px;
+	position: relative;
+	background: #0c162d;
+	/*! z-index: 9; */ 
+	padding: 230px 0px 0px 0px;
+	}   
+	.banner-text {
+		margin-bottom: 60px;
+	}   
+	.banner-text h1 {
+		font-family: 'Heebo', sans-serif;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 60px;
+		line-height: 120%;
+		display: flex;
+		align-items: center;
+		color: #FFFFFF;
+		margin-right: 10px;
+	}   
+	.Shape .shape-parallax {
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		display: block;
+		width: 300px;
+		height: 300px;
+		left: 15.7%;
+		position: absolute;
+		top: 16%;
+		transform: translateX(-50%);
+		z-index: 0;
+	}  
+	.Shape .shape-parallax-1 {
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		display: block;
+		width: 300px;
+		height: 340px;
+		right: 1px;
+		position: absolute;
+		top: 19%;
+		transform: translateX(-50%);
+		z-index: 0;
+		transform: rotate(-0.25deg);
+	}  
+	.icons-parallax {
+		display: inline-block;
+		width: 280px;
+		height: 270px;
+		background: rgba(255, 255, 255, 0.01);
+		border: 1px solid #000000;
+		box-sizing: border-box;
+		box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.8), inset 0px 40px 40px rgba(255, 255, 255, 0.24), inset 0px -3px 6px rgba(255, 255, 255, 0.24), inset 0px -6px 18px rgba(255, 255, 255, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 255, 255, 0.4);
+		backdrop-filter: blur(40px);
+		border-radius: 26px;
+		margin: 50px 10px;
+		padding: 30px 20px;
+			}   
+		.icons-wrapper .icon-One {
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			display: block;
+			width: 60px;
+			height: 60px;
+			transform: translateX(-50%);
+			z-index: 0;
+			margin: 30px;
+		}  
+		.icons-parallax h3{
+			color: #FFFFFF;
+			font-family: 'Mulish', sans-serif;
+			font-style: normal;
+			font-weight: bold;
+			font-size: 25px;
+			line-height: 150%;
+		} 
+		.icons-wrapper .icon-two {
+			background-repeat: no-repeat;
+			background-size: 100% 100%;
+			display: block;
+			width: 60px;
+			height: 60px;
+			transform: translateX(-50%);
+			z-index: 0;
+			margin: 30px;
+		} 
+		.icon-wrapper {
+			position: absolute;
+			bottom: 15%;
+			right: 0px;
+		}
+		.icon-wrapper ul li{
+			display: inline-block;
+			margin: 10px;
+		}
+		.icon-wrapper ul li a{
+			color:#EDF0FD;
+			border: 2px solid rgba(237, 240, 253, 0.1);
+			border-radius: 50px;
+			position: relative;
+			width: 30px;
+			height: 30px;
+			line-height: 28px;
+			display: block;
+			font-size: 14px;
+			text-align: center;
+		}  
+		.icon-wrapper ul li a:hover {
+			color: #FF257F;
+			border:2px solid #FF257F;
+		}
+		.icon-wrapper ul li a.active {
+			color: #FF257F;
+			border:2px solid #FF257F;
+		}
+			/*brand*/
+            .brand-active {
+                padding: 50px 0px;
+            }
+            .single-brand img {
+                max-width: 100%;
+                width: 50% !important;
+            }

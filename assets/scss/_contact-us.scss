@@ -1,0 +1,190 @@
+/* contact */
+.contact-section {
+    background: #0c162d;
+    padding: 100px 0px 0px;
+    z-index: 1;
+    position: relative;
+}  
+.tag {
+    padding: 25px 0px;
+}
+.tag h4{
+font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 25px;
+line-height: 46px;
+display: flex;
+align-items: center;
+color: #D3E6F4;
+} 
+.tag ul li{
+    display: inline-block;
+}
+.tag ul li a{
+background: #131d33;
+box-sizing: border-box;
+border-radius: 33px;
+font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+padding: 10px 20px;
+display: flex;
+align-items: center;
+text-align: center;
+color: #fff;
+margin: 0px 5px; 
+} 
+.tag ul li a:hover{
+    background: transparent;
+    border: 1px solid #FF257F;
+    color: #FF257F;
+
+}
+.tag ul li a.active{
+    background: transparent;
+    border: 1px solid #FF257F;
+    color: #FF257F;
+
+}
+.item h4{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 46px;
+    display: flex;
+    align-items: center;
+    color: #D3E6F4;
+    margin-bottom: 20px;
+    } 
+.item ul li {
+    display: inline-block;
+}
+.item ul li a {
+    font-size: 14px;
+    font-weight: 600;
+    color: #fff;
+    background: #131d33;
+    padding: 15px 20px;
+    border-radius: 30px;
+    margin: 0px 5px;
+} 
+.item ul li a:hover{
+    background: transparent;
+    border: 1px solid #FF257F;
+    color: #FF257F;
+
+}
+
+.contact-form.default-form {
+    padding: 30px 0px;
+}
+.default-form .form-group {
+    position: relative;
+    display: block;
+    width: 60%;
+    margin-bottom: 20px;
+} 
+.default-form .form-group input[type="text"], .default-form .form-group input[type="email"], .default-form .form-group input[type="tel"], .default-form .form-group input[type="url"], .default-form .form-group textarea, .default-form .form-group select {
+    position: relative;
+    display: block;
+    width: 100%; 
+    font-size: 22px;
+    line-height: 28px; 
+    color: #9da6b4;
+    font-weight: 400; 
+    height: 50px;
+    padding: 20px 0px;  
+    background-color: transparent;
+    border: none;
+    border-radius: 3px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+    border-bottom: 1px solid #33425F;
+}
+/* Your Name */
+
+.form-group input:focus {
+    border: none;
+    outline: none;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: none;
+}
+.form-group textarea:focus {
+    border: none;
+    outline: none;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #33425F;
+}
+
+.support-widget {
+    margin-bottom: 10px;
+}
+.info {
+    margin-bottom: 10px;
+}
+.support-widget .info a{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 150%;
+    text-decoration-line: underline;
+    color: #FF257F;
+}
+.support-widget a {
+    color: #fff;
+}
+.support-widget address {
+font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 150%;
+color: #FFFFFF;
+} 
+.social-widget .sidebar-title{
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 40px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+.social-icon-two li {
+    position: relative;
+    display: inline-block;
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
+.social-icon-two li a {
+    position: relative;
+    display: block;
+    height: 30px;
+    width: 30px;
+    line-height: 26px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;  
+    border: 2px solid rgba(237, 240, 253, 0.1);
+    border-radius: 50px;
+    -webkit-transition: all 300ms ease;
+    -moz-transition: all 300ms ease;
+    -ms-transition: all 300ms ease;
+    -o-transition: all 300ms ease;
+    transition: all 300ms ease;
+}
+.social-icon-two li a:hover {
+    color: #FF257F;
+    border: 2px solid #FF257F;
+}

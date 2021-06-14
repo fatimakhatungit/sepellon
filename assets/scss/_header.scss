@@ -1,0 +1,52 @@
+
+
+
+/*  sticky menu*/
+.header-transparent .menu-nav-sec.sticky_menu {
+	background: #111b31;
+	left: 0;
+	right: 0px;
+	top: 0;
+	position: fixed;
+	box-shadow: rgba(220, 219, 219, 0.2) 0px 0px 20px;
+}    
+.header-transparent .menu-nav-sec.sticky_menu ul li a {
+	color: #fff;
+} 
+
+/* 2. header*/
+.header-transparent {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index: 999;
+}
+.main-menu {
+  text-align: right;
+}
+.main-menu ul li {
+  display: inline-block;
+  margin: 0;
+} 
+.main-menu ul li a {
+  font-family: 'Work Sans', sans-serif;
+  font-size: 16px;
+  color: #C1CCF6;
+  font-weight: 400;
+  display: block;
+  padding: 30px 14px;
+  text-transform: capitalize;
+  transition: .3s;
+  text-align: center;
+}     
+.btn-icon a {
+	color: #26282b;
+	font-size: 18px;
+	font-weight: 700;
+	z-index: 1;
+}
+.navigation {
+	position: relative;
+}
+
+

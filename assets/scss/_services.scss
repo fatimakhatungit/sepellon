@@ -1,0 +1,55 @@
+/* services  */
+.services-section {
+    background: #111b31;
+    padding: 100px 0px;
+}
+.services-image{
+    margin-top: 25px;
+    z-index: 9;
+    position: relative;
+}
+.services-image .ellipse-2 {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    width: 100%;
+    height: 900px;
+    left: -3%;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(-50%);
+    z-index: -1;
+    top: 13rem;
+}      
+    .services-section .section-title {
+        text-align: center;
+    }
+    .services-section .section-title h3 {
+        text-align: center;
+    }
+.services-section .icons-wrapper .icon-One {
+    margin: 0px 0px 24px 25px;
+    width: 50px;
+    height: 50px;
+}
+.services-section .icons-wrapper p {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 24px;
+    color: #BCC0D4;
+}
+
+.services-ellipse .ellipse {
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+    width: 720px;
+    height: 720px;
+    left: 50%;
+    position: absolute;
+    /* bottom: -40%; */
+    transform: translateX(-50%);
+    /*! z-index: -1; */
+}   

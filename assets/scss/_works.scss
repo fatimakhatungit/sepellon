@@ -1,0 +1,60 @@
+/* works-section */
+.works-section {
+    background: #0c162d;
+    padding: 100px 0px;
+}
+.works-section .section-title h3 {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 50px;
+    align-items: center;
+    color: #FFFFFF;
+}
+.works-section .section-title p {
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 160%;
+    display: block;
+    align-items: center;
+    color: #BCC0D4;
+}
+.work-icon img {
+    width: 20%;
+    margin-bottom: 30px;
+}
+
+.work-icon h3{
+font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 45px;
+color: #FFFFFF;
+margin-right: 18%;
+margin-bottom: 35px;
+}  
+.btn-style-two span{
+font-family: 'Mulish', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+display: flex;
+align-items: center;
+color: #FFFFFF;
+background: rgba(255, 255, 255, 0.01);
+box-shadow: inset 0px 2px 1px rgba(255, 37, 127, 0.8), inset 0px 40px 40px rgba(255, 37, 127, 0.24), inset 0px -3px 6px rgba(255, 37, 127, 0.24), inset 0px -6px 18px rgba(255, 37, 127, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 37, 127, 0.4);
+backdrop-filter: blur(40px);
+border-radius: 15px;
+padding: 14px 20px;
+} 
+
+/* works-section-two */
+.works-section-two{
+    background: #111b31;
+    padding: 100px 0px;
+}
