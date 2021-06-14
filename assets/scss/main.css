@@ -1,7 +1,7 @@
 /*
   Theme Name: Spellon - Spellon Agency Template
   Author: nilartstudio
-  Description: Construction  HTML5 Bootstrap 4 template.
+  Description: Spellon  Spellon Agency Template.
   Version: 1.0
 */
 /* CSS Index
@@ -11,7 +11,6 @@
 3. slider-area
 */
 /* 1. Theme default css */
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=Mulish:wght@400;500;700&family=Roboto:wght@400;500;700&family=Work+Sans:wght@300;400;500;600;700&display=swap");
 /* font-family: 'Heebo', sans-serif;
 font-family: 'Inter', sans-serif;
 font-family: 'Mulish', sans-serif;
@@ -423,6 +422,10 @@ label {
   z-index: 999;
 }
 
+.logo img {
+  width: 140px;
+}
+
 .main-menu {
   text-align: right;
 }
@@ -438,11 +441,11 @@ label {
   color: #C1CCF6;
   font-weight: 400;
   display: block;
-  padding: 30px 14px;
+  padding: 34px 14px;
   text-transform: capitalize;
   -webkit-transition: .3s;
   transition: .3s;
-  text-align: center;
+  text-align: right;
 }
 
 .btn-icon a {

@@ -21,6 +21,9 @@
 	width: 100%;
 	z-index: 999;
 }
+.logo img {
+    width: 140px;
+}
 .main-menu {
   text-align: right;
 }
@@ -29,16 +32,17 @@
   margin: 0;
 } 
 .main-menu ul li a {
-  font-family: 'Work Sans', sans-serif;
-  font-size: 16px;
-  color: #C1CCF6;
-  font-weight: 400;
-  display: block;
-  padding: 30px 14px;
-  text-transform: capitalize;
-  transition: .3s;
-  text-align: center;
-}     
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    color: #C1CCF6;
+    font-weight: 400;
+    display: block;
+    padding: 34px 14px;
+    text-transform: capitalize;
+    -webkit-transition: .3s;
+    transition: .3s;
+    text-align: right;
+}    
 .btn-icon a {
 	color: #26282b;
 	font-size: 18px;
