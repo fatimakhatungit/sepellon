@@ -270,7 +270,7 @@ label {
   background-color: transparent;
   color: #fff;
   position: relative;
-  padding: 15px 25px;
+  padding: 15px 17px;
   font-size: 12px;
   font-weight: 600;
   text-transform: capitalize;
@@ -439,7 +439,7 @@ label {
 
 .main-menu ul li a {
   font-family: 'Work Sans', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   color: #C1CCF6;
   font-weight: 400;
   display: block;
@@ -520,10 +520,14 @@ label {
   transform: rotate(-0.25deg);
 }
 
+.icons-wrapper {
+  padding: 40px 0px;
+}
+
 .icons-parallax {
   display: inline-block;
   width: 270px;
-  height: 246px;
+  height: 244px;
   background: rgba(255, 255, 255, 0.01);
   border: 1px solid #000000;
   -webkit-box-sizing: border-box;
@@ -533,9 +537,10 @@ label {
   -webkit-backdrop-filter: blur(40px);
   backdrop-filter: blur(40px);
   border-radius: 20px;
-  margin: 50px 25px 30px;
-  padding: 37px 20px;
+  /* margin: 50px 25px 30px; */
+  /* padding: 37px 20px; */
   text-align: center;
+  margin-right: 26px;
 }
 
 .icons-wrapper .icon-One {
@@ -547,7 +552,7 @@ label {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   z-index: 0;
-  margin: 25px 50px 20px 50px;
+  margin: 43px 50px 20px 63px;
 }
 
 .icons-parallax h3 {
@@ -557,6 +562,7 @@ label {
   font-weight: bold;
   font-size: 25px;
   line-height: 150%;
+  text-align: left;
 }
 
 .icons-wrapper .icon-two {
@@ -568,7 +574,7 @@ label {
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   z-index: 0;
-  margin: 30px;
+  margin: 25px 50px 20px 63px;
 }
 
 .icon-wrapper {
