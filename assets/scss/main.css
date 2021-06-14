@@ -465,8 +465,7 @@ label {
   height: 950px;
   position: relative;
   background: #0c162d;
-  /*! z-index: 9; */
-  padding: 230px 0px 0px 0px;
+  padding: 248px 0px 0px 0px;
 }
 
 .banner-text {
@@ -477,16 +476,16 @@ label {
   font-family: 'Heebo', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 58px;
   line-height: 120%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #FFFFFF;
-  margin-right: 10px;
+  margin: 0px 10px 0px 27px;
 }
 
 .Shape .shape-parallax {
@@ -494,8 +493,8 @@ label {
   background-size: 100% 100%;
   display: block;
   width: 295px;
-  height: 293px;
-  left: 15.5%;
+  height: 292px;
+  left: 15.3%;
   position: absolute;
   top: 15.5%;
   -webkit-transform: translateX(-50%);
@@ -571,13 +570,13 @@ label {
 
 .icon-wrapper {
   position: absolute;
-  bottom: 15%;
-  right: 0px;
+  bottom: 26%;
+  right: -57px;
 }
 
 .icon-wrapper ul li {
   display: inline-block;
-  margin: 10px;
+  margin: 4px 2px;
 }
 
 .icon-wrapper ul li a {
@@ -585,9 +584,9 @@ label {
   border: 2px solid rgba(237, 240, 253, 0.1);
   border-radius: 50px;
   position: relative;
-  width: 30px;
-  height: 30px;
-  line-height: 28px;
+  width: 40px;
+  height: 40px;
+  line-height: 37px;
   display: block;
   font-size: 14px;
   text-align: center;
