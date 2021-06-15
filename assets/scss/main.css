@@ -319,6 +319,28 @@ label {
   width: 0;
 }
 
+.btn-style-two span {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.01);
+  -webkit-box-shadow: inset 0px 2px 1px rgba(255, 37, 127, 0.8), inset 0px 40px 40px rgba(255, 37, 127, 0.24), inset 0px -3px 6px rgba(255, 37, 127, 0.24), inset 0px -6px 18px rgba(255, 37, 127, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 37, 127, 0.4);
+  box-shadow: inset 0px 2px 1px rgba(255, 37, 127, 0.8), inset 0px 40px 40px rgba(255, 37, 127, 0.24), inset 0px -3px 6px rgba(255, 37, 127, 0.24), inset 0px -6px 18px rgba(255, 37, 127, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 37, 127, 0.4);
+  -webkit-backdrop-filter: blur(40px);
+  backdrop-filter: blur(40px);
+  border-radius: 20px;
+  padding: 20px 30px;
+}
+
 /*btn-style-there */
 .btn-style-there {
   font-family: 'Work Sans', sans-serif;
@@ -632,11 +654,11 @@ label {
   font-family: 'Mulish', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 50px;
+  font-size: 36px;
+  line-height: 45px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #FFFFFF;
 }
 
@@ -654,8 +676,8 @@ label {
 }
 
 .work-icon img {
-  width: 20%;
-  margin-bottom: 30px;
+  width: 25%;
+  margin-bottom: 40px;
 }
 
 .work-icon h3 {
@@ -669,32 +691,15 @@ label {
   margin-bottom: 35px;
 }
 
-.btn-style-two span {
-  font-family: 'Mulish', sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 20px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  color: #FFFFFF;
-  background: rgba(255, 255, 255, 0.01);
-  -webkit-box-shadow: inset 0px 2px 1px rgba(255, 37, 127, 0.8), inset 0px 40px 40px rgba(255, 37, 127, 0.24), inset 0px -3px 6px rgba(255, 37, 127, 0.24), inset 0px -6px 18px rgba(255, 37, 127, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 37, 127, 0.4);
-          box-shadow: inset 0px 2px 1px rgba(255, 37, 127, 0.8), inset 0px 40px 40px rgba(255, 37, 127, 0.24), inset 0px -3px 6px rgba(255, 37, 127, 0.24), inset 0px -6px 18px rgba(255, 37, 127, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 37, 127, 0.4);
-  -webkit-backdrop-filter: blur(40px);
-          backdrop-filter: blur(40px);
-  border-radius: 15px;
-  padding: 14px 20px;
-}
-
 /* works-section-two */
 .works-section-two {
   background: #111b31;
   padding: 100px 0px;
+}
+
+.works-section-two .work-icon img {
+  width: 21%;
+  margin-bottom: 40px;
 }
 
 .section-title h3 {
@@ -761,10 +766,34 @@ label {
   text-align: center;
 }
 
+.services-section .icons-parallax h3 {
+  color: #FFFFFF;
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 216%;
+  text-align: left;
+  padding-left: 30px;
+  margin-bottom: 0;
+}
+
+.services-section .icons-wrapper p {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 25px;
+  color: #BCC0D4;
+  padding: 0px 31px;
+  margin-right: 30px;
+  text-align: left;
+}
+
 .services-section .icons-wrapper .icon-One {
-  margin: 0px 0px 24px 25px;
-  width: 50px;
-  height: 50px;
+  margin: 38px 0px 24px 63px;
+  width: 70px;
+  height: 70px;
 }
 
 .services-section .icons-wrapper p {
