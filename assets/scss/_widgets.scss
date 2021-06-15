@@ -12,17 +12,21 @@
         .footer-title {
             padding: 0px 0px 40px 0px;
         }  
-        .footer-title h3{
+        .footer-title h3 {
             font-family: 'Mulish', sans-serif;
             font-style: normal;
             font-weight: bold;
-            font-size: 60px;
+            font-size: 64px;
             line-height: 80px;
+            display: -webkit-box;
+            display: -ms-flexbox;
             display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
             align-items: center;
             text-align: center;
             color: #EDF0FD;
-        } 
+        }
         .footer-title .btn-box {
             padding: 30px 0px;
             text-align: center;
@@ -39,7 +43,7 @@
         .main-footer .footer-nav li a {
             position: relative;
             display: block;
-            font-size: 14px;
+            font-size: 12px;
             line-height: 30px;
             color: #616977;
             font-weight: 500;
@@ -55,12 +59,12 @@
         .copyright {
             color: #CFD1EA;
             padding: 10px 0px;
-            font-size: 14px;
+            font-size: 12px;
             position: relative;
         }
         .copyright a {
             color: #fff;
-            font-size: 16px;
+            font-size: 14px;
             margin-right: 10px;
         }
          

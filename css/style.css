@@ -398,6 +398,28 @@ label {
   width: 0;
 }
 
+.main-footer .btn-style-two span {
+  font-family: 'Mulish', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  color: #FFFFFF;
+  background: rgba(255, 255, 255, 0.01);
+  -webkit-box-shadow: inset 0px 2px 1px rgba(255, 37, 127, 0.8), inset 0px 40px 40px rgba(255, 37, 127, 0.24), inset 0px -3px 6px rgba(255, 37, 127, 0.24), inset 0px -6px 18px rgba(255, 37, 127, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 37, 127, 0.4);
+  box-shadow: inset 0px 2px 1px rgba(255, 37, 127, 0.8), inset 0px 40px 40px rgba(255, 37, 127, 0.24), inset 0px -3px 6px rgba(255, 37, 127, 0.24), inset 0px -6px 18px rgba(255, 37, 127, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 37, 127, 0.4);
+  -webkit-backdrop-filter: blur(40px);
+  backdrop-filter: blur(40px);
+  border-radius: 20px;
+  padding: 20px 32px;
+}
+
 /*  scrollup*/
 .topcontrol {
   background: #FF257F none repeat scroll 0 0;
@@ -1356,14 +1378,14 @@ label {
   font-family: 'Mulish', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 64px;
   line-height: 80px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   color: #EDF0FD;
 }
@@ -1387,7 +1409,7 @@ label {
 .main-footer .footer-nav li a {
   position: relative;
   display: block;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 30px;
   color: #616977;
   font-weight: 500;
@@ -1402,13 +1424,13 @@ label {
 .copyright {
   color: #CFD1EA;
   padding: 10px 0px;
-  font-size: 14px;
+  font-size: 12px;
   position: relative;
 }
 
 .copyright a {
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
   margin-right: 10px;
 }
 
