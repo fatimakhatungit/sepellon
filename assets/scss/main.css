@@ -494,6 +494,10 @@ label {
   text-align: right;
 }
 
+.main-menu ul li a:active {
+  color: #fff;
+}
+
 .btn-icon a {
   color: #26282b;
   font-size: 18px;

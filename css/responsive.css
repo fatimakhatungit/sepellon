@@ -1,31 +1,29 @@
-/* XL Device :1200px. */
+/* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
+
 
 }
 
 
-/* LG Device :992px. */
+/* Normal desktop :992px. */
 @media (min-width: 992px) and (max-width: 1200px) {
-	
+
     .banner-text h1 {
         margin-left: 50px;
         font-size: 50px;
     }
-
 }
-
-
-/* MD Device :768px. */
-@media (min-width: 768px) and (max-width: 991px) {
-	
+ 
+/* Tablet desktop :768px. */
+@media (min-width: 768px) and (max-width: 992px) {
     .banner-text h1 {
-        font-size: 45px;
+        font-size: 43px;
         margin-left: 18px;
     }
     .icon-wrapper ul li {
         display: inline-block;
         margin: 0px;
-    }
+    } 
     .section-title h3 {
         font-size: 30px;
         line-height: 40px;
@@ -61,149 +59,192 @@
     }
 
 }
+ 
+/* small mobile :320px. */
+@media (max-width: 768px) {
 
-
-/* Extra small Device. */
-@media (max-width: 767px) {
-
-	.logo {
+    .logo {
         padding: 10px 0px;
     }
-    .icons-parallax {
+    .banner-text h1 {
+        font-size: 35px;
+    }
+    .icons-wrapper {
+        /*! margin: 40px 0px; */
+    }
+    .icon-wrapper {
+        right: 0px;
+    } 
+    .features-image {
+       margin-left: 0;
+    }
+    .Shape .shape-parallax {
+        left: 30%;
         width: 200px;
         height: 200px;
-    }
+    } 
     .icons-parallax {
-        margin: 50px 0px;
+        width: 250px;
+        height: 260px;
+        margin: 30px 0px;
     }
-    .services-section .icons-parallax {
-        width: 300px;
-        height: 300px;
-    }
-    .services-section .icons-parallax {
-        margin: 0px 0px;
+    .icon-wrapper ul li {
+        margin: 2px;
     }
     .works-wrapper {
-        margin-bottom: 30px;
-    }
-    .team-wrapper {
-        margin-bottom: 120px;
-    }
+        margin-bottom: 40px;
+    } 
     .Shape .shape-parallax-1 {
         width: 250px;
         height: 270px;
-        top: 30%;
-    }
-    .features-image .ellipse {
-        width: 400px;
-        height: 400px;
-        left: -14%;
-        top: 74%;
-    }
-    .features-image img {
-        width: 60%;
-    }
-    .section-title p {
-        font-size: 16px;
-        margin-right: 101px;
     } 
-    .section-title h3 {
-        font-size: 20px;
-        margin-right: 50px;
-        line-height: 30px;
-    } 
-    .features-wrapper {
-        margin-left: 0px;
-    } 
-    .features p {
-        font-size: 14px;
-        line-height: 20px;
-        margin-left: 0;
-    }
-    .features h3 {
-        font-size: 13px;
-        line-height: 20px;
-        color: #fff;
-        margin: 0;
-        margin-left: 14px;
-        width: 60%;
-    }
-    .features p {
-        font-size: 14px;
-        line-height: 20px;
-        margin-left: 0;
-        margin-right: 100px;
-    }
-    .works-images img {
-        width: 70%;
-    }
-    .footer-title h3 {
-        font-size: 20px;
-        line-height: 50px;
-        margin-right: 100px;
-    }
-    .about-wrapper {
-        margin-top: 100px;
-    }
-    .about-section .section-title {
-        margin-top: 130px;
-    }
-    .icon-wrapper {
-        position: absolute;
-        bottom: 15%;
-        right: 30%;
-    }
-    .banner-text h1 {
-        font-size: 20px;
-        line-height: 30px;
-        margin-right: 100px;
-    }
-    .support-widget address {
-        margin-right: 100px;
-    } 
-    .logo img {
-        width: 36%;
-    }
-    .icons-wrapper {
-        margin: 70px 0px;
-    }
-    .icons-parallax {
-        /*! margin: 50px 5px; */
-    } 
-    .copyright {
-        margin-right: 100px;
-    }
-    .main-footer .footer-nav li {
-        margin: 0 0px;
-    }
-    .services-image .ellipse-2 {
-        width: 80%;
-    } 
-    .tag ul li {
-        margin-bottom: 20px;
-    }
-    .item ul li {
-        display: inline-block;
-        margin-bottom: 40px;
-    }
-
-
 }
 
-/* SM Small Device :550px. */
-@media only screen and (min-width: 576px) and (max-width: 767px) {
-	
+/* Large Mobile :480px. */
+@media only screen and (min-width: 340px) and (max-width: 767px) {
+.container {width:450px}
+.logo {
+	padding: 10px 0px;
+}
+.icons-parallax {
+	width: 200px;
+	height: 200px;
+}
+.icons-parallax {
+	/*! margin: 50px 0px; */
+}
+.services-section .icons-parallax {
+	width: 300px;
+	height: 300px;
+}
+.services-section .icons-parallax {
+	margin: 0px 0px;
+}
+.works-wrapper {
+	margin-bottom: 30px;
+}
+.team-wrapper {
+	margin-bottom: 120px;
+}
+.Shape .shape-parallax-1 {
+	width: 250px;
+	height: 270px;
+	top: 24%;
+} 
+.features-image .ellipse {
+	width: 400px;
+	height: 400px;
+	left: -14%;
+	top: 74%;
+}
+.features-image img {
+	width: 60%;
+}
+.section-title p {
+	font-size: 16px;
+	margin-right: 101px;
+} 
+.section-title h3 {
+	font-size: 20px;
+	margin-right: 50px;
+	line-height: 30px;
+} 
+.features-wrapper {
+	margin-left: 0px;
+} 
+.features p {
+	font-size: 14px;
+	line-height: 20px;
+	margin-left: 0;
+}
+.features h3 {
+	font-size: 13px;
+	line-height: 20px;
+	color: #fff;
+	margin: 0;
+	margin-left: 14px;
+	width: 60%;
+}
+.features p {
+	font-size: 14px;
+	line-height: 20px;
+	margin-left: 0;
+	margin-right: 100px;
+}
+.works-images img {
+	width: 70%;
+}
+.footer-title h3 {
+	font-size: 20px;
+	line-height: 50px;
+	margin-right: 100px;
+}
+.about-wrapper {
+	margin-top: 100px;
+}
+.about-section .section-title {
+	margin-top: 130px;
+}
+.icon-wrapper {
+	position: absolute;
+	bottom: 15%;
+	right: 30%;
+}
+.banner-text h1 {
+	font-size: 20px;
+	line-height: 30px;
+	margin-right: 100px;
+}
+.support-widget address {
+	margin-right: 100px;
+} 
+.logo img {
+	width: 36%;
+}
+.icons-wrapper {
+	margin: 70px 0px;
+}
+.icons-parallax {
+	/*! margin: 50px 5px; */
+} 
+.copyright {
+	margin-right: 100px;
+}
+.main-footer .footer-nav li {
+	margin: 0 0px;
+}
+.services-image .ellipse-2 {
+	width: 80%;
+} 
+.tag ul li {
+    margin-bottom: 20px;
+}
+.item ul li {
+    display: inline-block;
+    margin-bottom: 40px;
+}
+.features-image {
+    margin-left: 0;
+}
+}
+@media only screen and (max-width: 376px){
     .icons-parallax {
-        margin: 50px 10px 0px;
-    }
+        margin: 27px 0px 10px 50px;
+    } 
     .mean-container a.meanmenu-reveal {
         margin-right: 100px;
     }
     .tag ul li {
         margin-bottom: 20px;
-    }
+    }  
     .item ul li {
         display: inline-block;
         margin-bottom: 40px;
+    }
+    .features-image {
+        margin-left: 0;
+    }
+    .icons-wrapper {
+        margin: 0;
     }
 }
