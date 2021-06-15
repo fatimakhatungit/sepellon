@@ -1012,11 +1012,11 @@ label {
 /* team-section */
 .team-section {
   background: #0c162d;
-  padding: 200px 0px 0px;
+  padding: 100px 0px 0px;
 }
 
 .team {
-  margin-bottom: 120px;
+  margin: 140px 0px;
 }
 
 .team-wrapper {
