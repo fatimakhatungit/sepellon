@@ -1036,7 +1036,7 @@ label {
   width: 255px;
   height: 260px;
   left: 0px;
-  top: 14px;
+  top: 3px;
   background: -webkit-gradient(linear, left top, left bottom, color-stop(11.76%, rgba(12, 22, 45, 0)), color-stop(65.52%, #0C162D));
   background: linear-gradient(180deg, rgba(12, 22, 45, 0) 11.76%, #0C162D 65.52%);
   -webkit-filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)), drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)), drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
