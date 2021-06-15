@@ -722,7 +722,6 @@ label {
   -ms-flex-align: center;
   align-items: center;
   color: #BCC0D4;
-  margin-left: 47px;
   /* display: block; */
   /* text-align: center; */
 }
@@ -804,7 +803,7 @@ label {
 
 .features-image img {
   text-align: center;
-  margin: 17px 0px 0px 45px;
+  margin: 17px 0px 0px 0px;
 }
 
 .features-image {
@@ -944,7 +943,7 @@ label {
   -ms-flex-align: center;
   align-items: center;
   color: #FF257F;
-  margin-left: 30px;
+  margin-left: 35px;
 }
 
 .about-content h3 {
