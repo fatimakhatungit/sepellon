@@ -347,13 +347,13 @@ label {
   background-color: transparent;
   color: #fff;
   position: relative;
-  padding: 13px 35px;
+  padding: 18px 50px;
   font-size: 12px;
   font-weight: 600;
   text-transform: capitalize;
   z-index: 1;
   letter-spacing: 1px;
-  border-radius: 10px;
+  border-radius: 15px;
   overflow: hidden;
   border: none;
   cursor: pointer;
@@ -1272,24 +1272,27 @@ label {
   font-family: 'Mulish', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 150%;
   -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   color: #FF257F;
 }
 
 .support-widget a {
   color: #fff;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .support-widget address {
   font-family: 'Mulish', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 150%;
   color: #FFFFFF;
+  margin-right: 35px;
 }
 
 .social-widget .sidebar-title {
@@ -1317,11 +1320,11 @@ label {
 .social-icon-two li a {
   position: relative;
   display: block;
-  height: 30px;
-  width: 30px;
-  line-height: 26px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
   border: 2px solid rgba(237, 240, 253, 0.1);
   border-radius: 50px;

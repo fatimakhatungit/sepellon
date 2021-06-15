@@ -347,13 +347,13 @@ label {
   background-color: transparent;
   color: #fff;
   position: relative;
-  padding: 13px 35px;
+  padding: 18px 50px;
   font-size: 12px;
   font-weight: 600;
   text-transform: capitalize;
   z-index: 1;
   letter-spacing: 1px;
-  border-radius: 10px;
+  border-radius: 15px;
   overflow: hidden;
   border: none;
   cursor: pointer;
@@ -1146,23 +1146,24 @@ label {
 .tag ul li a {
   background: #131d33;
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   border-radius: 33px;
   font-family: 'Mulish', sans-serif;
   font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
+  font-weight: 500;
+  font-size: 12px;
   line-height: 24px;
-  padding: 10px 20px;
+  padding: 14px 25px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   text-align: center;
   color: #fff;
   margin: 0px 5px;
+  /* letter-spacing: 1px; */
 }
 
 .tag ul li a:hover {
@@ -1199,10 +1200,10 @@ label {
 
 .item ul li a {
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 500;
   color: #fff;
   background: #131d33;
-  padding: 15px 20px;
+  padding: 20px 21px;
   border-radius: 30px;
   margin: 0px 5px;
 }
@@ -1229,7 +1230,7 @@ label {
   display: block;
   width: 100%;
   font-size: 22px;
-  line-height: 28px;
+  line-height: 25px;
   color: #9da6b4;
   font-weight: 400;
   height: 50px;
@@ -1271,24 +1272,27 @@ label {
   font-family: 'Mulish', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 20px;
+  font-size: 25px;
   line-height: 150%;
   -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   color: #FF257F;
 }
 
 .support-widget a {
   color: #fff;
+  font-size: 18px;
+  font-weight: 500;
 }
 
 .support-widget address {
   font-family: 'Mulish', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 150%;
   color: #FFFFFF;
+  margin-right: 35px;
 }
 
 .social-widget .sidebar-title {
@@ -1316,11 +1320,11 @@ label {
 .social-icon-two li a {
   position: relative;
   display: block;
-  height: 30px;
-  width: 30px;
-  line-height: 26px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
   text-align: center;
-  font-size: 14px;
+  font-size: 16px;
   color: #fff;
   border: 2px solid rgba(237, 240, 253, 0.1);
   border-radius: 50px;
