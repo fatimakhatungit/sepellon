@@ -790,6 +790,25 @@ label {
   /*! z-index: -1; */
 }
 
+.services-section .icons-parallax {
+  display: inline-block;
+  width: 330px;
+  height: 330px;
+  background: rgba(255, 255, 255, 0.01);
+  border: 1px solid #000000;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.8), inset 0px 40px 40px rgba(255, 255, 255, 0.24), inset 0px -3px 6px rgba(255, 255, 255, 0.24), inset 0px -6px 18px rgba(255, 255, 255, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 255, 255, 0.4);
+  box-shadow: inset 0px 2px 1px rgba(255, 255, 255, 0.8), inset 0px 40px 40px rgba(255, 255, 255, 0.24), inset 0px -3px 6px rgba(255, 255, 255, 0.24), inset 0px -6px 18px rgba(255, 255, 255, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 255, 255, 0.4);
+  -webkit-backdrop-filter: blur(40px);
+  backdrop-filter: blur(40px);
+  border-radius: 20px;
+  /* margin: 50px 25px 30px; */
+  /* padding: 37px 20px; */
+  text-align: center;
+  margin-right: 0px;
+}
+
 /* features-section */
 .features-section {
   background: #0C162D;
