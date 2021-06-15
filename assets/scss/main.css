@@ -509,7 +509,7 @@ label {
   background-size: 100% 100%;
   display: block;
   width: 300px;
-  height: 340px;
+  height: 410px;
   right: 1px;
   position: absolute;
   top: 22%;
@@ -619,7 +619,7 @@ label {
 
 .single-brand img {
   max-width: 100%;
-  width: 45% !important;
+  width: 40% !important;
 }
 
 /* works-section */
@@ -701,13 +701,14 @@ label {
   font-family: 'Mulish', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 60px;
-  /*! display: flex; */
+  font-size: 42px;
+  line-height: 54px;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #FFFFFF;
+  letter-spacing: 1px;
+  margin-bottom: 24px;
 }
 
 .section-title p {
@@ -921,8 +922,8 @@ label {
 }
 
 .about-content.one {
-  width: 142px;
-  height: 142px;
+  width: 150px;
+  height: 150px;
   display: inline-block;
 }
 
@@ -931,15 +932,15 @@ label {
   font-style: normal;
   font-weight: bold;
   font-size: 30px;
-  line-height: 75px;
+  line-height: 100px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   color: #FF257F;
-  margin-left: 20px;
+  margin-left: 30px;
 }
 
 .about-content h3 {
@@ -958,7 +959,7 @@ label {
 }
 
 .about-content.one span {
-  line-height: 142px;
+  line-height: 150px;
 }
 
 /* team-section */

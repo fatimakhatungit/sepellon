@@ -20,21 +20,25 @@
         margin: 0px 30px;
     }
     .about-content.one {
-        width: 142px;
-        height: 142px;
+        width: 150px;
+        height: 150px;
         display: inline-block;
     }
-    .about-content span{
+    .about-content span {
         font-family: 'Mulish', sans-serif;
         font-style: normal;
         font-weight: bold;
         font-size: 30px;
-        line-height: 75px;
+        line-height: 100px;
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
         align-items: center;
         color: #FF257F;
-        margin-left: 20px;
-    } 
+        margin-left: 30px;
+    }
     .about-content h3 {
         font-family: 'Mulish', sans-serif;
         font-style: normal;
@@ -50,7 +54,7 @@
         padding: 14px 0px;
     }
     .about-content.one span {
-        line-height: 142px;
+        line-height: 150px;
     }
     
     
