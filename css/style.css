@@ -831,16 +831,7 @@ label {
   font-family: 'Inter', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-  color: #FFFFFF;
-}
-
-.features-wrapper h3 {
-  font-family: 'Inter', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 36px;
+  font-size: 32px;
   line-height: 44px;
   color: #FFFFFF;
   margin: 50px 100px 14px 0px;
