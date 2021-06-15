@@ -21,22 +21,28 @@ color: #D3E6F4;
 .tag ul li{
     display: inline-block;
 }
-.tag ul li a{
-background: #131d33;
-box-sizing: border-box;
-border-radius: 33px;
-font-family: 'Mulish', sans-serif;
-font-style: normal;
-font-weight: 600;
-font-size: 14px;
-line-height: 24px;
-padding: 10px 20px;
-display: flex;
-align-items: center;
-text-align: center;
-color: #fff;
-margin: 0px 5px; 
-} 
+.tag ul li a {
+    background: #131d33;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-radius: 33px;
+    font-family: 'Mulish', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 24px;
+    padding: 14px 25px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+    margin: 0px 5px;
+    /* letter-spacing: 1px; */
+}
 .tag ul li a:hover{
     background: transparent;
     border: 1px solid #FF257F;
@@ -65,13 +71,13 @@ margin: 0px 5px;
 }
 .item ul li a {
     font-size: 14px;
-    font-weight: 600;
+    font-weight: 500;
     color: #fff;
     background: #131d33;
-    padding: 15px 20px;
+    padding: 20px 21px;
     border-radius: 30px;
     margin: 0px 5px;
-} 
+}
 .item ul li a:hover{
     background: transparent;
     border: 1px solid #FF257F;
@@ -93,7 +99,7 @@ margin: 0px 5px;
     display: block;
     width: 100%; 
     font-size: 22px;
-    line-height: 28px; 
+    line-height: 25px; 
     color: #9da6b4;
     font-weight: 400; 
     height: 50px;

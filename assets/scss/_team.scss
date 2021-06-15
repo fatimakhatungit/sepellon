@@ -45,17 +45,19 @@
     text-align: center;
     left: 22%;
 }    
-.team-content h4{
+.team-content h4 {
     font-family: 'Mulish', sans-serif;
     font-style: normal;
     font-weight: bold;
-    font-size: 22px;
+    font-size: 18px;
     line-height: 5px;
     display: block;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
     align-items: center;
     text-align: center;
     color: #CFD1EA;
-} 
+}
 .team-content span{
     font-family: 'Inter', sans-serif;
     font-style: normal;
