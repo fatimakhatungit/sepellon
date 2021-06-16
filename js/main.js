@@ -100,8 +100,17 @@
         ]
     });
     
+    // Counter Up
+    var counter = $('.count-number');
+    if(counter.length) {  
+        $('.count-number').counterUp({
+            delay: 20,
+            time: 1500
+        });
+    }
     
-    
+      // wow init
+      new WOW().init();
     
     
     })(jQuery);	

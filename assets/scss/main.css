@@ -949,7 +949,7 @@ label {
 }
 
 /* about  */
-.about-section {
+.counter-section {
   background: #111b31;
   padding: 100px 0px;
 }
@@ -958,60 +958,83 @@ label {
   /*! display: inline-block; */
 }
 
-.about-content {
-  background: rgba(255, 255, 255, 0.01);
-  -webkit-box-shadow: inset 0px 2px 1px rgba(255, 37, 127, 0.8), inset 0px 40px 40px rgba(255, 37, 127, 0.24), inset 0px -3px 6px rgba(255, 37, 127, 0.24), inset 0px -6px 18px rgba(255, 37, 127, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 37, 127, 0.4);
-  box-shadow: inset 0px 2px 1px rgba(255, 37, 127, 0.8), inset 0px 40px 40px rgba(255, 37, 127, 0.24), inset 0px -3px 6px rgba(255, 37, 127, 0.24), inset 0px -6px 18px rgba(255, 37, 127, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 37, 127, 0.4);
-  -webkit-backdrop-filter: blur(40px);
-  backdrop-filter: blur(40px);
-  border-radius: 93px;
-  width: 122px;
-  height: 122px;
-  display: inline-block;
-  margin: 0px 30px;
-  line-height: 122px;
-}
-
-.about-content.one {
-  width: 180px;
-  height: 180px;
-  display: inline-block;
-  line-height: 180px;
-}
-
-.about-content span {
-  font-family: 'Mulish', sans-serif;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 122px;
+.counter-section .counter-part {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  color: #FF257F;
-  margin-left: 38px;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  text-align: center;
 }
 
-.about-content h3 {
+.counter-section .counter-part .single-counter .number-part.small {
+  width: 122px;
+  height: 122px;
+  line-height: 122px;
+}
+
+.counter-section .counter-part .single-counter .number-part {
+  background: rgba(255, 255, 255, 0.01);
+  -webkit-box-shadow: inset 0px 2px 1px rgba(255, 37, 127, 0.8), inset 0px 40px 40px rgba(255, 37, 127, 0.24), inset 0px -3px 6px rgba(255, 37, 127, 0.24), inset 0px -6px 18px rgba(255, 37, 127, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 37, 127, 0.4);
+          box-shadow: inset 0px 2px 1px rgba(255, 37, 127, 0.8), inset 0px 40px 40px rgba(255, 37, 127, 0.24), inset 0px -3px 6px rgba(255, 37, 127, 0.24), inset 0px -6px 18px rgba(255, 37, 127, 0.25), inset 0px -40px 40px rgba(12, 22, 45, 0.1), inset 0px 6px 12px rgba(255, 37, 127, 0.4);
+  -webkit-backdrop-filter: blur(40px);
+          backdrop-filter: blur(40px);
+  border-radius: 93px;
+  text-align: center;
+  color: #ff257f;
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: 700;
   font-family: 'Mulish', sans-serif;
-  font-style: normal;
-  font-weight: 600;
+  margin: 0 auto 35px;
+}
+
+.counter-section .counter-part .single-counter .number-part.small {
+  line-height: 122px;
+}
+
+.counter-section .counter-part .single-counter .number-part {
+  text-align: center;
+  color: #ff257f;
+  font-size: 40px;
+  line-height: 46px;
+  font-weight: 700;
+  font-family: 'Mulish', sans-serif;
+}
+
+.counter-section .counter-part .single-counter .number-part .count-icon {
+  margin-left: -10px;
+}
+
+.counter-section .counter-part .single-counter .count-text {
   font-size: 30px;
   line-height: 36px;
-  display: block;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-  text-align: center;
-  color: #FFFFFF;
-  padding: 14px 0px;
+  font-weight: 600;
+  font-family: 'Mulish', sans-serif;
+  color: #ffffff;
 }
 
-.about-content.one span {
+.counter-section .counter-part .single-counter .number-part.big {
+  width: 180px;
+  height: 180px;
   line-height: 180px;
+}
+
+.counter-section .counter-part .single-counter .number-part.big {
+  line-height: 180px;
+}
+
+.counter-section .counter-part .single-counter .number-part.big {
+  line-height: 180px;
+}
+
+.counter-section .counter-part .single-counter .count-text {
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 600;
+  font-family: 'Mulish', sans-serif;
+  color: #ffffff;
 }
 
 /* team-section */
