@@ -73,24 +73,31 @@
 	padding: 0 40px;
 }
 
+.btn-style-two span:hover {
+	background: rgba(255, 255, 255, 0.075);
+}
+
 /*btn-style-there */
 
 .btn-style-there {
-    font-family: 'Work Sans', sans-serif;
-    background-color: transparent;
-    color: #fff;
-    position: relative;
-    padding: 18px 50px;
-    font-size: 12px;
-    font-weight: 600;
-    text-transform: capitalize;
-    z-index: 1;
-    letter-spacing: 1px;
-    border-radius: 15px;
-    overflow: hidden;
-    border: none;
-    cursor: pointer;
-}    
+	font-family: 'Work Sans', sans-serif;
+	background-color: transparent;
+	color: #fff;
+	position: relative;
+	padding: 0px 60px;
+	font-size: 16px;
+	font-weight: 600;
+	text-transform: capitalize;
+	z-index: 1;
+	letter-spacing: 1px;
+	border-radius: 18px;
+	overflow: hidden;
+	border: none;
+	cursor: pointer;
+	height: 60px;
+	line-height: 60px;
+	width: auto;
+}   
 .btn-style-there:hover {
 	background: #fff;
 	color: #FB65A3;

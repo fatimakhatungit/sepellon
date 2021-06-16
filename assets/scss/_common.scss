@@ -7,10 +7,11 @@ font-family: 'Mulish', sans-serif;
 font-family: 'Roboto', sans-serif;
 font-family: 'Work Sans', sans-serif; */
 
- body {
+body {
 	font-family: 'Work Sans', sans-serif;
 	font-weight: normal;
 	font-style: normal;
+	background: #0c162d;
 }
 .img {
 	max-width: 100%;
@@ -144,12 +145,12 @@ label {
 }
 *::-moz-placeholder {
 	color: #fff;
-	font-size: 14px;
+	font-size: 18px;
 	opacity: 0.8;
 }
 *::placeholder {
 	color: #fff;
-	font-size: 14px;
+	font-size: 18px;
 	opacity: 0.8;
 }
 .theme-overlay {
