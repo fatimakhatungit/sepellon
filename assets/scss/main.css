@@ -649,6 +649,7 @@ label {
 /*brand*/
 .brand-active {
   padding: 50px 0px;
+  margin-bottom: 50px;
 }
 
 .single-brand img {
@@ -717,9 +718,9 @@ label {
 .section-title h3 {
   font-family: 'Mulish', sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 43px;
-  line-height: 54px;
+  font-weight: 700;
+  font-size: 54px;
+  line-height: 65px;
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
@@ -731,9 +732,9 @@ label {
 .section-title p {
   font-family: 'Mulish', sans-serif;
   font-style: normal;
-  font-weight: normal;
-  font-size: 18px;
-  line-height: 150%;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 35px;
   display: block;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -869,8 +870,8 @@ label {
   margin-top: 25px;
   z-index: 9;
   position: relative;
-  width: 510px;
-  margin-left: -63px;
+  /* width: 510px; */
+  /* margin-left: -63px; */
 }
 
 .features-image .ellipse {
@@ -921,7 +922,7 @@ label {
 }
 
 .features a {
-  width: 117px;
+  width: 100px;
   height: 50px;
   background: #282e44;
   padding: 12px 0px 0px 16px;
@@ -936,8 +937,8 @@ label {
   font-family: 'Mulish', sans-serif;
   font-style: normal;
   font-weight: 600;
-  font-size: 18px;
-  line-height: 27px;
+  font-size: 26px;
+  line-height: 34px;
   color: #fff;
   margin: 0;
   margin-left: 28px;
@@ -949,12 +950,12 @@ label {
   font-family: 'Mulish', sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
-  line-height: 22px;
+  font-size: 20px;
+  line-height: 28px;
   color: #BCC0D4;
   /* margin-left: 57px; */
   margin-bottom: 0px;
-  margin: 0px 21px 0px 20px;
+  margin: 0px 21px 0px 50px;
 }
 
 /* about  */
@@ -974,24 +975,26 @@ label {
   -webkit-backdrop-filter: blur(40px);
   backdrop-filter: blur(40px);
   border-radius: 93px;
-  width: 100px;
-  height: 100px;
+  width: 122px;
+  height: 122px;
   display: inline-block;
   margin: 0px 30px;
+  line-height: 122px;
 }
 
 .about-content.one {
-  width: 150px;
-  height: 150px;
+  width: 180px;
+  height: 180px;
   display: inline-block;
+  line-height: 180px;
 }
 
 .about-content span {
   font-family: 'Mulish', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 30px;
-  line-height: 100px;
+  font-size: 40px;
+  line-height: 122px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -999,15 +1002,15 @@ label {
   -ms-flex-align: center;
   align-items: center;
   color: #FF257F;
-  margin-left: 35px;
+  margin-left: 38px;
 }
 
 .about-content h3 {
   font-family: 'Mulish', sans-serif;
   font-style: normal;
-  font-weight: 500;
-  font-size: 22px;
-  line-height: 120%;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 36px;
   display: block;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1018,7 +1021,7 @@ label {
 }
 
 .about-content.one span {
-  line-height: 150px;
+  line-height: 180px;
 }
 
 /* team-section */
