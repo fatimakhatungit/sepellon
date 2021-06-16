@@ -15,7 +15,7 @@
     
         meanMenuContainer: '.mobile-menu',
     
-        meanScreenWidth: "767",
+        meanScreenWidth: "768",
     
         onePage: true
     
@@ -78,7 +78,7 @@
         slidesToScroll: 1,
         responsive: [
           {
-            breakpoint: 1024,
+            breakpoint: 1300,
             settings: {
               slidesToShow: 5,
               slidesToScroll: 1,
@@ -86,9 +86,16 @@
             }
           },
           {
+            breakpoint: 1024,
+            settings: {
+              slidesToShow: 5,
+              slidesToScroll: 1
+            }
+          },
+          {
             breakpoint: 991,
             settings: {
-              slidesToShow: 4,
+              slidesToShow: 3,
               slidesToScroll: 1
             }
           },
@@ -102,39 +109,7 @@
         ]
       });
       
-    // $('.brand-active').slick({
-    //     dots: false,
-    //     arrows: false,
-    //     infinite: true,
-    //     speed: 300,
-    //     slidesToShow: 5,
-    //     slidesToScroll: 1,
-    //     responsive: [
-    //         {
-    //             breakpoint: 1024,
-    //             settings: {
-    //                 slidesToShow: 5,
-    //                 slidesToScroll: 1,
-    //                 infinite: true,
-    //                 dots: false
-    //             }
-    //         },
-    //         {
-    //             breakpoint: 991,
-    //             settings: {
-    //                 slidesToShow: 3,
-    //                 slidesToScroll: 1
-    //             }
-    //         },
-    //         {
-    //             breakpoint: 480,
-    //             settings: {
-    //                 slidesToShow: 1,
-    //                 slidesToScroll: 1
-    //             }
-    //         }
-    //     ]
-    // });
+ 
     
     // Counter Up
     var counter = $('.count-number');

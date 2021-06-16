@@ -1,7 +1,9 @@
 /* Normal desktop :1200px. */
 @media (min-width: 1200px) and (max-width: 1500px) {
 
-
+    .banner-section .shape-img.left {
+        left: 0;
+    }
 }
 
 
@@ -9,13 +11,29 @@
 @media (min-width: 992px) and (max-width: 1200px) {
 
     .banner-text h1 {
-        margin-left: 50px;
-        font-size: 50px;
+        font-size: 60px;
+        margin-left: 0;
+        line-height: 70px;
+    }
+    .btn-style-one {
+        padding: 20px 24px;
+    }
+    .icon-wrapper {
+        right: 40px;
+    }
+    .features a {
+        width: 155px;
+    }
+    .features h3 {
+        font-size: 20px;
     }
 }
  
 /* Tablet desktop :768px. */
 @media (min-width: 768px) and (max-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
     .banner-text h1 {
         font-size: 43px;
         margin-left: 18px;
@@ -53,9 +71,9 @@
         display: inline-block;
         margin: 0 5px;
     }
-    .icons-parallax {
-        width: 250px;
-        height: 260px;
+    
+    .services-section .single-service {
+        margin-bottom: 30px;
     }
 
 }
@@ -67,8 +85,10 @@
         padding: 10px 0px;
     }
     .banner-text h1 {
-        font-size: 35px;
-    }
+        font-size: 48px;
+        line-height: 70px;
+        margin: 0;
+    } 
     .icons-wrapper {
         /*! margin: 40px 0px; */
     }
@@ -83,11 +103,7 @@
         width: 200px;
         height: 200px;
     } 
-    .icons-parallax {
-        width: 250px;
-        height: 260px;
-        margin: 30px 0px;
-    }
+    
     .icon-wrapper ul li {
         margin: 2px;
     }
@@ -98,12 +114,73 @@
         width: 250px;
         height: 270px;
     } 
+    .btn-box {
+        display: none;
+    }
+    .counter-section .counter-part {
+        margin-bottom: 50px;
+    }
+
+    .icons-parallax {
+        margin-right: 15px;
+    }
+    .banner-section .shape-img {
+        display: none;
+    }
+    .banner-section {
+        padding: 170px 0px 0px;
+    }
 }
 
 /* Large Mobile :480px. */
 @media only screen and (min-width: 340px) and (max-width: 767px) {
-.container {width:450px}
-.logo {
+
+.container {
+	max-width: 540px;
+}
+.logo img {
+	margin-left: 0;
+}
+.banner-text h1 {
+	font-size: 33px;
+	line-height: 50px;
+}
+.icons-parallax {
+	margin-bottom: 30px;
+}
+.section-title h3 {
+	font-size: 40px;
+	line-height: 50px;
+}
+.features-title {
+	margin-left: 0;
+}
+.features-title h3 {
+	margin: 50px 50px 14px 0px;
+}
+ .features-wrapper {
+	margin-left: 0;
+}
+.features {
+	display: block;
+}
+.features a {
+	padding: 18px 20px;
+	margin: 10px 0px;
+} 
+.features h3 {
+	margin: 20px 0px;
+}
+.features p {
+	margin: 0;
+}
+/*.features a {
+	width: 158px;
+	height: 42px;
+	padding: 12px 0px 0px 15px;
+	line-height: 24px;
+} */
+/* .logo {
 	padding: 10px 0px;
 }
 .icons-parallax {
@@ -112,7 +189,7 @@
 }
 .icons-parallax {
 	/*! margin: 50px 0px; */
-}
+/* }
 .services-section .icons-parallax {
 	width: 300px;
 	height: 300px;
@@ -205,7 +282,7 @@
 	margin: 70px 0px;
 }
 .icons-parallax {
-	/*! margin: 50px 5px; */
+
 } 
 .copyright {
 	margin-right: 100px;
@@ -225,10 +302,10 @@
 }
 .features-image {
     margin-left: 0;
-}
+}  */
 }
 @media only screen and (max-width: 376px){
-    .icons-parallax {
+    /* .icons-parallax {
         margin: 27px 0px 10px 50px;
     } 
     .mean-container a.meanmenu-reveal {
@@ -246,5 +323,5 @@
     }
     .icons-wrapper {
         margin: 0;
-    }
+    } */
 }
