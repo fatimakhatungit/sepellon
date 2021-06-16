@@ -93,7 +93,8 @@
 	line-height: 63px;
 	display: inline-block;
 	text-align: center;
-}
+	border: 1px solid transparent;
+} 
 .item ul li a:hover{
     background: transparent;
     border: 1px solid #FF257F;

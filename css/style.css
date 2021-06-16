@@ -767,6 +767,7 @@ label {
   z-index: 9;
   position: relative;
 }
+
 .services-image .ellipse-2 {
   background-repeat: no-repeat;
   background-size: 100% 100%;
@@ -1240,6 +1241,7 @@ label {
   line-height: 63px;
   display: inline-block;
   text-align: center;
+  border: 1px solid transparent;
 }
 
 .item ul li a:hover {
