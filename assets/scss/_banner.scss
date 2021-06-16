@@ -1,11 +1,11 @@
 /*banner-section*/
 .banner-section {
-    width: 100%;
-    height: 950px;
-    position: relative;
-    background: #0c162d;
-    padding: 248px 0px 0px 0px;
-}  
+	width: 100%;
+	min-height: 950px;
+	position: relative;
+	background: #0c162d;
+	padding: 310px 0px 0px;
+}
 	.banner-text {
 		margin-bottom: 60px;
 	}   
@@ -13,7 +13,7 @@
 		font-family: 'Heebo', sans-serif;
 		font-style: normal;
 		font-weight: bold;
-		font-size: 60px;
+		font-size: 72px;
 		line-height: 120%;
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -24,40 +24,22 @@
 		color: #FFFFFF;
 		margin: 0px 10px 0px 0px;
 	}
-	.Shape .shape-parallax {
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		display: block;
-		width: 295px;
-		height: 292px;
-		left: 15.7%;
+	.banner-section .shape-img {
 		position: absolute;
-		top: 15.5%;
-		-webkit-transform: translateX(-50%);
-		transform: translateX(-50%);
-		z-index: 0;
+		top: 190px;
 	}
-	.Shape .shape-parallax-1 {
-		background-repeat: no-repeat;
-		background-size: 100% 100%;
-		display: block;
-		width: 300px;
-		height: 410px;
-		right: 1px;
-		position: absolute;
-		top: 22%;
-		-webkit-transform: translateX(-50%);
-		transform: translateX(-50%);
-		z-index: 0;
-		-webkit-transform: rotate(-0.25deg);
-		transform: rotate(-0.25deg);
-	} 
+	.banner-section .shape-img.left {
+		left: 95px;
+	}
+	.banner-section .shape-img.right {
+		right: 0;
+	}
 	.icons-wrapper {
-		padding: 40px 0px;
+		padding: 120px 0px;
 	}
 	.icons-parallax {
 		display: inline-block;
-		width: 270px;
+		width: 350px;
 		height: 244px;
 		background: rgba(255, 255, 255, 0.01);
 		border: 1px solid #000000;
@@ -77,8 +59,8 @@
 		background-repeat: no-repeat;
 		background-size: 100% 100%;
 		display: block;
-		width: 80px;
-		height: 80px;
+		width: 60px;
+		height: 60px;
 		-webkit-transform: translateX(-50%);
 		transform: translateX(-50%);
 		z-index: 0;
@@ -88,8 +70,8 @@
 		color: #FFFFFF;
 		font-family: 'Mulish', sans-serif;
 		font-style: normal;
-		font-weight: bold;
-		font-size: 25px;
+		font-weight: 700;
+		font-size: 36px;
 		line-height: 150%;
 		text-align: left;
 		padding-left: 25px;
@@ -105,11 +87,11 @@
 		z-index: 0;
 		margin: 40px 50px 20px 63px;
 	}
-		.icon-wrapper {
-			position: absolute;
-			bottom: 26%;
-			right: -57px;
-		}
+	.icon-wrapper {
+		position: absolute;
+		bottom: 26%;
+		right: 0;
+	}
 		.icon-wrapper ul li {
 			display: inline-block;
 			margin: 4px 2px;
@@ -119,13 +101,13 @@
 			border: 2px solid rgba(237, 240, 253, 0.1);
 			border-radius: 50px;
 			position: relative;
-			width: 40px;
-			height: 40px;
-			line-height: 37px;
+			width: 50px;
+			height: 50px;
+			line-height: 46px;
 			display: block;
 			font-size: 14px;
 			text-align: center;
-		}  
+		} 
 		.icon-wrapper ul li a:hover {
 			color: #FF257F;
 			border:2px solid #FF257F;

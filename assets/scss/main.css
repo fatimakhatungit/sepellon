@@ -270,8 +270,8 @@ label {
   background-color: transparent;
   color: #fff;
   position: relative;
-  padding: 15px 17px;
-  font-size: 12px;
+  padding: 20px 34px;
+  font-size: 14px;
   font-weight: 600;
   text-transform: capitalize;
   z-index: 1;
@@ -466,8 +466,11 @@ label {
   z-index: 999;
 }
 
+.menu-nav-sec {
+  padding: 25px 0px;
+}
+
 .logo img {
-  width: 140px;
   text-align: center;
   margin-left: 28px;
 }
@@ -483,11 +486,11 @@ label {
 
 .main-menu ul li a {
   font-family: 'Work Sans', sans-serif;
-  font-size: 14px;
-  color: #C1CCF6;
-  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
   display: block;
-  padding: 34px 14px;
+  padding: 20px 14px;
   text-transform: capitalize;
   -webkit-transition: .3s;
   transition: .3s;
@@ -512,10 +515,10 @@ label {
 /*banner-section*/
 .banner-section {
   width: 100%;
-  height: 950px;
+  min-height: 950px;
   position: relative;
   background: #0c162d;
-  padding: 248px 0px 0px 0px;
+  padding: 310px 0px 0px;
 }
 
 .banner-text {
@@ -526,7 +529,7 @@ label {
   font-family: 'Heebo', sans-serif;
   font-style: normal;
   font-weight: bold;
-  font-size: 60px;
+  font-size: 72px;
   line-height: 120%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -538,43 +541,26 @@ label {
   margin: 0px 10px 0px 0px;
 }
 
-.Shape .shape-parallax {
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  display: block;
-  width: 295px;
-  height: 292px;
-  left: 15.7%;
+.banner-section .shape-img {
   position: absolute;
-  top: 15.5%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  z-index: 0;
+  top: 190px;
 }
 
-.Shape .shape-parallax-1 {
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  display: block;
-  width: 300px;
-  height: 410px;
-  right: 1px;
-  position: absolute;
-  top: 22%;
-  -webkit-transform: translateX(-50%);
-  transform: translateX(-50%);
-  z-index: 0;
-  -webkit-transform: rotate(-0.25deg);
-  transform: rotate(-0.25deg);
+.banner-section .shape-img.left {
+  left: 95px;
+}
+
+.banner-section .shape-img.right {
+  right: 0;
 }
 
 .icons-wrapper {
-  padding: 40px 0px;
+  padding: 120px 0px;
 }
 
 .icons-parallax {
   display: inline-block;
-  width: 270px;
+  width: 350px;
   height: 244px;
   background: rgba(255, 255, 255, 0.01);
   border: 1px solid #000000;
@@ -595,8 +581,8 @@ label {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
   -webkit-transform: translateX(-50%);
   transform: translateX(-50%);
   z-index: 0;
@@ -607,8 +593,8 @@ label {
   color: #FFFFFF;
   font-family: 'Mulish', sans-serif;
   font-style: normal;
-  font-weight: bold;
-  font-size: 25px;
+  font-weight: 700;
+  font-size: 36px;
   line-height: 150%;
   text-align: left;
   padding-left: 25px;
@@ -629,7 +615,7 @@ label {
 .icon-wrapper {
   position: absolute;
   bottom: 26%;
-  right: -57px;
+  right: 0;
 }
 
 .icon-wrapper ul li {
@@ -642,9 +628,9 @@ label {
   border: 2px solid rgba(237, 240, 253, 0.1);
   border-radius: 50px;
   position: relative;
-  width: 40px;
-  height: 40px;
-  line-height: 37px;
+  width: 50px;
+  height: 50px;
+  line-height: 46px;
   display: block;
   font-size: 14px;
   text-align: center;

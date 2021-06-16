@@ -21,8 +21,10 @@
 	width: 100%;
 	z-index: 999;
 }
+.menu-nav-sec {
+	padding: 25px 0px;
+}
 .logo img {
-    width: 140px;
     text-align: center;
     margin-left: 28px;
 }
@@ -34,17 +36,17 @@
   margin: 0;
 } 
 .main-menu ul li a {
-    font-family: 'Work Sans', sans-serif;
-    font-size: 14px;
-    color: #C1CCF6;
-    font-weight: 400;
-    display: block;
-    padding: 34px 14px;
-    text-transform: capitalize;
-    -webkit-transition: .3s;
-    transition: .3s;
-    text-align: right;
-}   
+	font-family: 'Work Sans', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 500;
+	display: block;
+	padding: 20px 14px;
+	text-transform: capitalize;
+	-webkit-transition: .3s;
+	transition: .3s;
+	text-align: right;
+} 
 .main-menu ul li a:active {
 	color: #fff;
 }
