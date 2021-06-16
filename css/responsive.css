@@ -174,154 +174,15 @@
 .features p {
 	margin: 0;
 }
-/*.features a {
-	width: 158px;
-	height: 42px;
-	padding: 12px 0px 0px 15px;
-	line-height: 24px;
-} */
-/* .logo {
-	padding: 10px 0px;
-}
-.icons-parallax {
-	width: 200px;
-	height: 200px;
-}
-.icons-parallax {
-	/*! margin: 50px 0px; */
-/* }
-.services-section .icons-parallax {
-	width: 300px;
-	height: 300px;
-}
-.services-section .icons-parallax {
-	margin: 0px 0px;
-}
-.works-wrapper {
+.services-section .single-service {
 	margin-bottom: 30px;
 }
-.team-wrapper {
-	margin-bottom: 120px;
+.footer-section .footer-content .footer-title {
+	font-size: 45px;
+	line-height: 68px;
 }
-.Shape .shape-parallax-1 {
-	width: 250px;
-	height: 270px;
-	top: 24%;
-} 
-.features-image .ellipse {
-	width: 400px;
-	height: 400px;
-	left: -14%;
-	top: 74%;
-}
-.features-image img {
-	width: 60%;
-}
-.section-title p {
-	font-size: 16px;
-	margin-right: 101px;
-} 
-.section-title h3 {
-	font-size: 20px;
-	margin-right: 50px;
-	line-height: 30px;
-} 
-.features-wrapper {
-	margin-left: 0px;
-} 
-.features p {
-	font-size: 14px;
-	line-height: 20px;
-	margin-left: 0;
-}
-.features h3 {
-	font-size: 13px;
-	line-height: 20px;
-	color: #fff;
-	margin: 0;
-	margin-left: 14px;
-	width: 60%;
-}
-.features p {
-	font-size: 14px;
-	line-height: 20px;
-	margin-left: 0;
-	margin-right: 100px;
-}
-.works-images img {
-	width: 70%;
-}
-.footer-title h3 {
-	font-size: 20px;
-	line-height: 50px;
-	margin-right: 100px;
-}
-.about-wrapper {
-	margin-top: 100px;
-}
-.about-section .section-title {
-	margin-top: 130px;
-}
-.icon-wrapper {
-	position: absolute;
-	bottom: 15%;
-	right: 30%;
-}
-.banner-text h1 {
-	font-size: 20px;
-	line-height: 30px;
-	margin-right: 100px;
-}
-.support-widget address {
-	margin-right: 100px;
-} 
-.logo img {
-	width: 36%;
-}
-.icons-wrapper {
-	margin: 70px 0px;
-}
-.icons-parallax {
 
-} 
-.copyright {
-	margin-right: 100px;
-}
-.main-footer .footer-nav li {
-	margin: 0 0px;
-}
-.services-image .ellipse-2 {
-	width: 80%;
-} 
-.tag ul li {
-    margin-bottom: 20px;
-}
-.item ul li {
-    display: inline-block;
-    margin-bottom: 40px;
-}
-.features-image {
-    margin-left: 0;
-}  */
 }
 @media only screen and (max-width: 376px){
-    /* .icons-parallax {
-        margin: 27px 0px 10px 50px;
-    } 
-    .mean-container a.meanmenu-reveal {
-        margin-right: 100px;
-    }
-    .tag ul li {
-        margin-bottom: 20px;
-    }  
-    .item ul li {
-        display: inline-block;
-        margin-bottom: 40px;
-    }
-    .features-image {
-        margin-left: 0;
-    }
-    .icons-wrapper {
-        margin: 0;
-    } */
+  
 }
