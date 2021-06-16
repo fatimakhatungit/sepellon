@@ -74,13 +74,13 @@
         autoplay:true,
         prevArrow: '<button type="button" class="slick-prev"><i class="fa fa-angle-left"></i></button>',
         nextArrow: '<button type="button" class="slick-next"><i class="fa fa-angle-right"></i></button>',
-        slidesToShow: 5,
+        slidesToShow: 6,
         slidesToScroll: 1,
         responsive: [
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 4,
+              slidesToShow: 5,
               slidesToScroll: 1,
               infinite: true,
             }
