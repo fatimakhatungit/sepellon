@@ -130,6 +130,9 @@
     .banner-section {
         padding: 170px 0px 0px;
     }
+    .features h3 {
+        font-size: 24px;
+    }
 }
 
 /* Large Mobile :480px. */
