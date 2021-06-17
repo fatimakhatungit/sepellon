@@ -189,9 +189,9 @@
 	margin-bottom: 30px;
 }
 .footer-section .footer-content .footer-title {
-	font-size: 45px;
-	line-height: 68px;
-}
+	font-size: 30px;
+	line-height: 50px;
+} 
 .single-counter {
 	padding-right: 0;
 	/*! margin-bottom: 22px; */
@@ -221,5 +221,21 @@
 @media only screen and (max-width: 376px){
     .single-counter {
         padding-right: 0;
+    }
+    .footer-section .footer-bottom .copyright .privacy {
+        padding-left: 6px;
+        font-size: 15px;
+    }
+    .footer-section .footer-bottom .copyright .privacy::before {
+        left: -6px;
+    }
+    .footer-section .footer-bottom .copyright-menu li {
+        padding-left: 11px;
+    }
+    .footer-section .footer-bottom .copyright-menu li a {
+        font-size: 14px;
+    }
+    .mean-container a.meanmenu-reveal {
+        margin-top: -63px;
     }
 }
