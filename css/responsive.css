@@ -163,7 +163,8 @@
 }
 .features {
 	display: block;
-}
+	margin: 30px 0px;
+} 
 .features a {
 	padding: 18px 20px;
 	margin: 10px 0px;
@@ -186,6 +187,22 @@
 }
 .icons-wrapper {
 	padding: 50px 0px;
+}
+.work-icon img {
+	margin: 40px 0px;
+}
+.works-section-two .work-icon img {
+	width: 50%;
+	margin-bottom: 40px;
+}
+.contact-section .contact-form input {
+	width: 100%;
+}
+.footer-section .footer-bottom .copyright {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: ;
+    margin-bottom: 13px;
 }
 
 }

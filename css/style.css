@@ -747,8 +747,6 @@ label {
   -ms-flex-align: center;
   align-items: center;
   color: #BCC0D4;
-  /* display: block; */
-  /* text-align: center; */
 }
 
 /* services  */
@@ -854,6 +852,7 @@ label {
 
 .section-title a {
   color: #FF257F;
+  font-size: 22px;
 }
 
 .features-image img {
@@ -864,8 +863,6 @@ label {
   margin-top: 25px;
   z-index: 9;
   position: relative;
-  /* width: 510px; */
-  /* margin-left: -63px; */
 }
 
 .features-image .ellipse {
@@ -876,7 +873,6 @@ label {
   height: 900px;
   left: -46%;
   position: absolute;
-  /*! bottom: 0; */
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   z-index: -1;
@@ -913,7 +909,7 @@ label {
 }
 
 .features {
-  margin: 15px 0px;
+  margin: 22px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -928,7 +924,6 @@ label {
   border-radius: 10px;
   color: #fff;
   font-size: 20px;
-  /* margin-left: 4px; */
 }
 
 .features h3 {
@@ -951,7 +946,6 @@ label {
   font-size: 20px;
   line-height: 28px;
   color: #BCC0D4;
-  /* margin-left: 57px; */
   margin-bottom: 0px;
   margin: 0px 21px 0px 50px;
 }
