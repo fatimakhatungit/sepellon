@@ -120,7 +120,7 @@
     .counter-section .counter-part {
         margin-bottom: 50px;
     }
-
+ 
     .icons-parallax {
         margin-right: 0;
     }
@@ -129,13 +129,16 @@
     }
     .banner-section {
         padding: 170px 0px 0px;
-    }
+    } 
     .features h3 {
         font-size: 24px;
     } 
     .footer-section .footer-bottom .copyright-menu {
         float: none;
         text-align: center;
+    }
+    .works-section .section-title p {
+        margin-bottom: 40px;
     }
 }
 
@@ -191,14 +194,15 @@
 }
 .single-counter {
 	padding-right: 0;
-}
+	/*! margin-bottom: 22px; */
+} 
 .icons-wrapper {
 	padding: 50px 0px;
 	text-align: center;
 }
-.work-icon img {
+/* .work-icon img {
 	margin: 40px 0px;
-}
+} */
 .works-section-two .work-icon img {
 	width: 50%;
 	margin-bottom: 40px;
