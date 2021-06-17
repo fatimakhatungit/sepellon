@@ -122,7 +122,7 @@
     }
 
     .icons-parallax {
-        margin-right: 15px;
+        margin-right: 0;
     }
     .banner-section .shape-img {
         display: none;
@@ -132,6 +132,10 @@
     }
     .features h3 {
         font-size: 24px;
+    } 
+    .footer-section .footer-bottom .copyright-menu {
+        float: none;
+        text-align: center;
     }
 }
 
@@ -190,6 +194,7 @@
 }
 .icons-wrapper {
 	padding: 50px 0px;
+	text-align: center;
 }
 .work-icon img {
 	margin: 40px 0px;
@@ -200,7 +205,7 @@
 }
 .contact-section .contact-form input {
 	width: 100%;
-}
+} 
 .footer-section .footer-bottom .copyright {
 	display: -webkit-box;
 	display: -ms-flexbox;
