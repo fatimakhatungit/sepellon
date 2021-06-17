@@ -901,7 +901,11 @@ label {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.features-line {
   border-top: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 20px 0px;
 }
 
 .features {
@@ -909,7 +913,6 @@ label {
 }
 
 .features {
-  margin: 22px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

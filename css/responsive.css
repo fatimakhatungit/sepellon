@@ -140,8 +140,11 @@
     .works-section .section-title p {
         margin-bottom: 40px;
     }
+    .footer-section .footer-bottom .copyright {
+        margin-left: 27%;
+        margin-bottom: 10px;
+    }
 }
-
 /* Large Mobile :480px. */
 @media only screen and (min-width: 340px) and (max-width: 767px) {
 
@@ -173,7 +176,7 @@
 }
 .features {
 	display: block;
-	margin: 30px 0px;
+	/*! margin: 30px 0px; */
 } 
 .features a {
 	padding: 18px 20px;
@@ -181,7 +184,7 @@
 } 
 .features h3 {
 	margin: 20px 0px;
-}
+} 
 .features p {
 	margin: 0;
 }
@@ -237,5 +240,9 @@
     }
     .mean-container a.meanmenu-reveal {
         margin-top: -63px;
+    }
+    .footer-section .footer-bottom .copyright {
+        margin-left: 0%;
+        margin-bottom: 10px;
     }
 }
